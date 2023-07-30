@@ -25,7 +25,7 @@ const nextConfig = {
   serverRuntimeConfig: {
     dbConfig: {
       // host: "3.92.234.242",
-      host: "localhost",
+      host: "3.95.176.100",
       port: 3306,
       user: "admin",
       password: "ApsisINT@123", // @@@
@@ -37,8 +37,8 @@ const nextConfig = {
   publicRuntimeConfig: {
     apiUrl:
       process.env.NODE_ENV === "development"
-        ? "http://localhost:3000/api" // development api
-        : "http://localhost:3000/api", // production api
+        ? "http://3.95.176.100:3000/api" // development api
+        : "http://3.95.176.100:3000/api", // production api
   },
 };
 
