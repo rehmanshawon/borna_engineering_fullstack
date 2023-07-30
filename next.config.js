@@ -16,8 +16,8 @@ const nextConfig = {
   publicRuntimeConfig: {
     apiUrl:
       process.env.NODE_ENV === "development"
-        ? "http://3.95.176.100/:3000/api" // development api
-        : "http://3.95.176.100/:3000/api", // production api
+        ? "http://3.95.176.100:3000/api" // development api
+        : "http://3.95.176.100:3000/api", // production api
   },
 };
 
