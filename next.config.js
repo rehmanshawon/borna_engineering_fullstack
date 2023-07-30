@@ -10,7 +10,7 @@ const nextConfig = {
           { key: "Access-Control-Allow-Credentials", value: "true" },
           {
             key: "Access-Control-Allow-Origin",
-            value: "http://3.95.176.100:3000",
+            value: "https://3.95.176.100",
           }, // replace this your actual origin
           {
             key: "Access-Control-Allow-Methods",
