@@ -6,7 +6,7 @@ const nextConfig = {
       // host: "3.92.234.242",
       host: "127.0.0.1",
       port: 3306,
-      user: "borna",
+      user: "root",
       password: "ApsisINT@123", // @@@
       database: "kopotron_example_next",
     },
