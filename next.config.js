@@ -3,9 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   serverRuntimeConfig: {
     dbConfig: {
-      host: "3.92.234.242",
+      // host: "3.92.234.242",
+      host: "localhost",
       port: 3306,
-      user: "borna",
+      user: "root",
       password: "ApsisINT@123", // @@@
       database: "kopotron_example_next",
     },
