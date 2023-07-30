@@ -66,7 +66,7 @@ async function initialize() {
   db.Rating.belongsTo(db.Product);
 
   // sync all models with database
-  await sequelize.sync({ alter: false });
+  await sequelize.sync({ alter: true });
 
   db.initialized = true;
 }
