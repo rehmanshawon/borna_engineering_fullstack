@@ -4,7 +4,7 @@ const nextConfig = {
   serverRuntimeConfig: {
     dbConfig: {
       // host: "3.92.234.242",
-      host: "44.201.134.16",
+      host: "localhost",
       port: 3306,
       user: "borna",
       password: "ApsisINT@123", // @@@
