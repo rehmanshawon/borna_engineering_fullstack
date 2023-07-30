@@ -28,7 +28,7 @@ const nextConfig = {
   serverRuntimeConfig: {
     dbConfig: {
       // host: "3.92.234.242",
-      host: "3.95.176.100",
+      host: "localhost",
       port: 3306,
       user: "admin",
       password: "ApsisINT@123", // @@@
