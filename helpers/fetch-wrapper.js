@@ -16,7 +16,6 @@ function request(method) {
     const requestOptions = {
       method,
       headers: authHeader(url),
-      mode: "no-cors",
     };
     if (body) {
       requestOptions.headers["Content-Type"] = "application/json";
