@@ -10,7 +10,7 @@ const nextConfig = {
           { key: "Access-Control-Allow-Credentials", value: "true" },
           {
             key: "Access-Control-Allow-Origin",
-            value: "https://3.95.176.100",
+            value: "http://borna.kopotron.com",
           }, // replace this your actual origin
           {
             key: "Access-Control-Allow-Methods",
