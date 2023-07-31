@@ -24,7 +24,7 @@ function runMiddleware(req, res, fn) {
 function apiHandler(handler) {
   return async (req, res) => {
     const method = req.method.toLowerCase();
-    await runMiddleware(req, res, cors);
+    //await runMiddleware(req, res, cors);
 
     // check handler supports HTTP method
     if (!handler[method])
